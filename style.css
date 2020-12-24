@@ -1,0 +1,121 @@
+html, body {
+  display: flex;
+  height: 130%;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(to bottom, rgba(160, 200, 230, 1) 15%, rgba(240, 230, 215, 1) 50%, rgba(220, 240, 215, 1) 85%);
+}
+
+
+
+.full_wrapper {
+  width: 100%;
+  margin:0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+
+.wrapper {
+  width: 75%;
+  margin:0px;
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.basic_info, .about {
+  margin: 0px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.desc{
+  font-family: "Arial"
+}
+
+.work{
+  margin: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width:90%;
+}
+
+table, td, th {
+  border: 3px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgba(120,130,120);
+  color: white;
+  height: 50px;
+}
+
+td{
+    height: 50px;
+    padding:5px;
+    text-align: center;
+}
+
+tr:nth-child(even) {background-color: rgba(220,200,210);}
+tr:nth-child(odd) {background-color: rgba(220,200,220);}
+
+.basic_info {
+  align-items: left;
+  justify-content: center;
+}
+
+.Name{
+  text-decoration: underline;
+}
+
+.Studies{
+    margin:5px;
+    padding:0px;
+}
+
+.grade{
+    margin:5px;
+    padding:0px;
+}
+
+.about {
+  align-items: left;
+  justify-content: center;
+}
+
+.title{
+    font-family: "Arial";
+    font-size:20px;
+    margin: 2px;
+    justify-content: center;
+}
+
+li{
+    /*list-style-type: square;*/
+    display: inline;
+    padding: 7px;
+}
+
+a {
+    color:rgba(30,30,150, 1);
+    font-family: "Arial";
+    font-size:20px;
+}
+
+.prof_pict {
+  border-style: solid;
+  border-radius: 50%;
+}
