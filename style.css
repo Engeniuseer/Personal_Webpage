@@ -1,6 +1,6 @@
 html, body {
   display: flex;
-  height: 130%;
+  height: 160%;
   width:100%;
   margin: 0px;
   padding: 0px;
@@ -118,4 +118,43 @@ a {
 .prof_pict {
   border-style: solid;
   border-radius: 50%;
+}
+
+.progressbar{
+    -webkit-appearance:None;
+    width:40%;
+    height:25px;
+    margin:10px 10px;
+}
+
+progress:before {
+  content: attr(data-label);
+  font-size: 1.0em;
+  vertical-align: 0;
+
+  
+  position:absolute;
+  left:30px;
+  right:0;
+}
+
+
+progress::-webkit-progress-bar {
+  background-color: rgba(215,215,215);
+}
+
+progress::-webkit-progress-value {
+  background-color: rgba(0,255,128);
+}
+
+progress::-moz-progress-bar
+{
+  background-color: rgba(0,255,128);
+}
+
+.prog_tit{
+  font-family: "Arial";
+    font-size:1.5em;
+    margin:10px 10px;
+    text-decoration: underline;
 }
